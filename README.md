@@ -1,4 +1,4 @@
-# SKECHERS-E.commerce 
+# skechers-e.commerce 
 > **Proyecto de Grado / Evidencia de Aprendizaje**  
 > *Tecnólogo en Anlisis y Desarrollo de Software* 
 

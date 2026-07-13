@@ -32,7 +32,8 @@ VALUES
 'Av. Libertadores, Cali',
 1,
 2);
-/* -- ===========================================b
+
+-- ===========================================b
 -- TABLA: CATEGORIA
 -- ===========================================
 
@@ -43,14 +44,14 @@ VALUES
 ('Niños', 'Calzado infantil', 1),
 ('Accesorios', 'Accesorios y complementos Skechers', 1);
 
--- ===========================================
+/*-- ===========================================
 -- TABLA: USUARIO
 -- ===========================================
 
 INSERT INTO usuario(nombre, apellido, correo, contraseña, telefono, direccion, fecha_registro, estado, rol_id_rol)
 VALUES
 ('Juan','Pérez','juan@skechers.com','123456','3001234567','Calle 10 #20-30',NOW(),1,1),
-('Andrea','Gómez','andrea@gmail.com','123456','3019876543','Carrera 15 #30-20',NOW(),1,2);
+('Andrea','Gómez','andrea@gmail.com','123456','3019876543','Carrera 15 #30-20',NOW(),1,2);/*
 
 -- ===========================================
 -- TABLA: PRODUCTO

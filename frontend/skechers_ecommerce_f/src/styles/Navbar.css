@@ -1,0 +1,103 @@
+/*
+=========================================================
+Componente : Navbar
+Proyecto   : SKECHERS E-Commerce
+=========================================================
+*/
+
+.navbar {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 30px 60px;
+
+    box-sizing: border-box;
+
+    z-index: 1000;
+
+    background: transparent;
+
+}
+.navbar-logo h2{
+
+    margin:0;
+
+    color:white;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+}
+
+.navbar-menu{
+
+    display:flex;
+
+    gap:40px;
+
+}
+
+.navbar-menu a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    letter-spacing:.5px;
+
+    transition:.3s;
+
+}
+
+.navbar-menu a:hover{
+
+    opacity:.7;
+
+}
+
+.navbar-icons{
+
+    display:flex;
+
+    gap:22px;
+
+    color:white;
+
+    font-size:22px;
+
+}
+
+.navbar-icons svg{
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.navbar-icons svg:hover{
+
+    transform:translateY(-2px);
+
+    opacity:.75;
+
+}

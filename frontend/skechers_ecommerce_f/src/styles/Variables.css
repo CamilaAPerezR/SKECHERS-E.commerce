@@ -1,0 +1,59 @@
+/* =======================================================
+   VARIABLES GLOBALES
+   Proyecto: SKECHERS E-Commerce
+   Descripción:
+   Define los colores, tipografías, tamaños y espaciados
+   que serán utilizados en toda la aplicación.
+======================================================= */
+
+:root {
+
+    /* ========= Colores principales ========= */
+
+    --color-primary: #DC2626;
+    --color-primary-hover: #B91C1C;
+
+    --color-dark: #111827;
+    --color-dark-secondary: #1F2937;
+
+    --color-light: #FFFFFF;
+    --color-background: #F8F9FA;
+
+    --color-success: #16A34A;
+    --color-warning: #F59E0B;
+    --color-danger: #DC2626;
+
+    --color-text: #374151;
+    --color-border: #E5E7EB;
+
+    /* ========= Tipografía ========= */
+
+    --font-family: 'Poppins', sans-serif;
+
+    /* ========= Espaciados ========= */
+
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 40px;
+    --spacing-xl: 70px;
+
+    /* ========= Bordes ========= */
+
+    --radius-small: 8px;
+    --radius-medium: 12px;
+    --radius-large: 20px;
+
+    /* ========= Sombras ========= */
+
+    --shadow-small: 0 2px 6px rgba(0,0,0,.08);
+
+    --shadow-medium: 0 6px 18px rgba(0,0,0,.12);
+
+    --shadow-large: 0 12px 30px rgba(0,0,0,.18);
+
+    /* ========= Animaciones ========= */
+
+    --transition: all .3s ease;
+
+}

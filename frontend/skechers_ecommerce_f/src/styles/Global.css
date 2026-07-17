@@ -1,0 +1,51 @@
+/* =======================================================
+   ESTILOS GLOBALES
+======================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import "./Variables.css";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:var(--font-family);
+
+    background:var(--color-background);
+
+    color:var(--color-text);
+
+    min-height:100vh;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    transition:var(--transition);
+
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}

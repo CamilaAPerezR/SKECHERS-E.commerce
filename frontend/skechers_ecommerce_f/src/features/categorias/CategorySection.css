@@ -1,0 +1,71 @@
+/*
+=========================================================
+Componente : CategorySection
+Proyecto   : SKECHERS E-Commerce
+
+Descripción:
+Estilos de la sección de categorías destacadas.
+=========================================================
+*/
+
+.category-section{
+
+    padding:80px 2%;
+
+    background:#fff;
+
+}
+
+.category-header{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.category-header h2{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#111;
+
+    margin-bottom:15px;
+
+}
+
+.category-header p{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+.category-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap: 2px;
+
+}
+
+@media(max-width:992px){
+
+    .category-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

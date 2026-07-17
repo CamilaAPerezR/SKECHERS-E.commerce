@@ -1,0 +1,97 @@
+/*
+=========================================================
+Componente : CategoryCard
+Proyecto   : SKECHERS E-Commerce
+
+Descripción:
+Estilos de la tarjeta reutilizable para mostrar
+las categorías principales.
+=========================================================
+*/
+
+.category-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    height:450px;
+
+    transition:.4s;
+
+}
+
+.category-card img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+/* Capa oscura para mejorar la lectura */
+
+.category-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        to top,
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.10)
+    );
+
+}
+
+/* Contenido */
+
+.category-info{
+
+    position:absolute;
+
+    left:30px;
+
+    bottom:30px;
+
+    z-index:5;
+
+    color:white;
+
+}
+
+.category-info h3{
+
+    font-size:32px;
+
+    margin-bottom:10px;
+
+    letter-spacing:1px;
+
+}
+
+.category-info span{
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+.category-card:hover img{
+
+    transform:scale(1.08);
+
+} 

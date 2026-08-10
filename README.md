@@ -16,7 +16,7 @@ El proyecto se encuentra en la transición entre la **Fase de Diseño de Arquite
 * **Backend (En proceso):** Configuración de la arquitectura de capas y desarrollo de módulos en Spring Boot.
 
 
-## Objetivo General
+## Objetivo General:
 
 Desarrollar e implementar una plataforma web de comercio electrónico (E-commerce) interactiva y responsiva dedicada a la venta de productos Skechers, aplicando el ciclo completo de vida del software mediante arquitectura Full-Stack (Java/Spring Boot, MySQL, HTML, CSS y JavaScript), con el fin de garantizar una experiencia de usuario fluida en el proceso de compra y una gestión eficiente y segura del inventario.
 

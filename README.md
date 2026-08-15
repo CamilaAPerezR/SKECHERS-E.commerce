@@ -2,7 +2,7 @@
 > **Proyecto de Grado / Evidencia de Aprendizaje**  
 > *Tecnólogo en Anlisis y Desarrollo de Software* 
 
-Proyecto Full Stack de comercio electrónico desarrollado como proyecto integrador del Tecnólogo ADSO.
+Proyecto Full Stack de comercio electrónico desarrollado como proyecto integrador del Tecnólogo Análisis y Desarrollo de Software 
 
 Este proyecto consiste en el diseño y desarrollo integral (desde la fase de requerimientos hasta la codificación) de una plataforma web de comercio electrónico especializada en productos de la marca Skechers. El sistema aplica metodologías de ingeniería de software para resolver de manera eficiente la gestión de ventas, inventarios y usuarios.
 

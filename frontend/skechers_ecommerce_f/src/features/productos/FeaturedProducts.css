@@ -5,10 +5,41 @@ Proyecto: SKECHERS E-Commerce
 ===========================================================
 */
 
-.featured-products{
+.featured-products {
+    padding: 100px 6%;
+    background: #ffffff;
+}
 
-    padding:100px 6%;
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 24px;
 
-    background:#ffffff;
+    max-width: 1250px;
+    margin: 50px auto 0;
+}
+
+/* Tablets */
+
+@media (max-width: 900px) {
+
+    .featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Móviles */
+
+@media (max-width: 600px) {
+
+    .featured-products {
+        padding: 70px 5%;
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
 
 }

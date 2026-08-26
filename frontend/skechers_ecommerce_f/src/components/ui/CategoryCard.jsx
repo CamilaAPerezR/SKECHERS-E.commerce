@@ -9,34 +9,42 @@ Proyecto:
 SKECHERS E-Commerce
 ===========================================================
 */
+
+import { Link } from "react-router-dom";
 import "./CategoryCard.css";
 
 function CategoryCard({ image, title }) {
 
+    const collectionPath = `/colecciones/${title.toLowerCase()}`;
+
     return (
 
-    <article className="category-card">
+        <Link
+            to={collectionPath}
+            className="category-card"
+        >
 
-        <img
-            src={image}
-            alt={title}
-        />
+            <img
+                src={image}
+                alt={title}
+            />
 
-        <div className="category-info">
+            <div className="category-info">
 
-            <h3>{title}</h3>
+                <h3>{title}</h3>
 
-            <span>
-                Explorar colección →
-            </span>
+                <span>
+                    Explorar colección →
+                </span>
 
-        </div>
+            </div>
 
-    </article>
+        </Link>
 
-);
+    );
+
 }
 
-export default CategoryCard;
+export default CategoryCard; 
 
 

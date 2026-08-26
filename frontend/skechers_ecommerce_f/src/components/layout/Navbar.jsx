@@ -24,6 +24,8 @@ import {
     FiShoppingBag
 } from "react-icons/fi";
 
+import { Link } from "react-router-dom";
+
 function Navbar() {
 
     return (
@@ -62,7 +64,12 @@ function Navbar() {
 
                 <FiHeart />
 
-                <FiUser />
+                <Link
+                    to="/login"
+                    className="navbar-icon-link"
+                >
+                    <FiUser />
+                </Link>
 
                 <FiShoppingBag />
 
@@ -74,4 +81,4 @@ function Navbar() {
 
 }
 
-export default Navbar;
+export default Navbar; 

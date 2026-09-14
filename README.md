@@ -13,7 +13,7 @@ El proyecto se encuentra en la transición entre la **Fase de Diseño de Arquite
 * **Análisis y Diseño (100%):** Requerimientos, Casos de Uso y Diagrama de Clases finalizados.
 * **Diseño UI/UX (100%):** Maquetas y prototipos de alta fidelidad completados en Figma.
 * **Base de Datos (80%):** Modelo relacional estructurado y listo para producción en MySQL.
-* **Backend (En proceso):** Configuración de la arquitectura de capas y desarrollo de módulos en Spring Boot.
+* **Backend (En proceso):** Configuración de la arquitectura de capas y desarrollo de módulos en Spring Boot
 
 
 ## Objetivo General:

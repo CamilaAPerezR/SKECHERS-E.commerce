@@ -28,7 +28,7 @@ La arquitectura de la aplicación se divide en las siguientes capas y tecnologí
 | Capa | Tecnología | Descripción |
 | :--- | :--- | :--- |
 | **Backend** | Java  / Spring Boot | Lógica de negocio, API REST y persistencia con JPA. |
-| **Base de Datos**| MySQL | Almacenamiento relacional de datos y control de stock. |
+| **Base de Datos**| MySQL | Almacenamiento relacional de datos y control de stock |
 | **Frontend** | HTML5 / CSS3 / JavaScript | Interfaz de usuario responsiva y nativa (Vanilla JS). |
 | **Herramientas** | Figma / Git / GitHub | Diseño UX/UI y control de versiones del código. |
 

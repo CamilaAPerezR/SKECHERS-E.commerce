@@ -39,7 +39,7 @@ En la carpeta "/docs" de este repositorio encontrarás el respaldo metodológico
 1.  **Especificación de Requerimientos:** Definición de requisitos funcionales y no funcionales.
 2.  **Casos de Uso:** Modelado de interacciones de Clientes y Administradores.
 3.  **Diagrama de Clases:** Arquitectura lógica bajo el paradigma POO.
-4.  **Prototipos Figma:** Enlace o capturas del diseño visual de la interfaz.
+4.  **Prototipos Figma:** Enlace o capturas del diseño visual de la interfaz
 
 ## Estructura del Proyecto 
 
